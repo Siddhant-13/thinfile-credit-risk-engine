@@ -47,11 +47,10 @@ Two secondary results:
 ```bash
 git clone <repo>
 cd thin-file-credit-risk
-python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
  
-python pipeline.py        # full study to stdout, ~30s
-streamlit run app.py      # interactive interface
+python pipeline.py       
+streamlit run app.py      
 ```
  
 No external dataset. The population is generated in-process from a fixed seed.
