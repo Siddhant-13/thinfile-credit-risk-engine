@@ -1,0 +1,26 @@
+# Cached price data — regenerated on first run, can be large
+cache/
+*.parquet
+
+# Generated sector map (keep NIFTY500.csv, it's the input)
+sectors.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
